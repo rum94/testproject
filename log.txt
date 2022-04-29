@@ -5,3 +5,5 @@ log log log
 log 5
 log
 log
+log 17
+error 1
