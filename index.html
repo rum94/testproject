@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task 2 lesson html css p.1</title>
     <link rel="stylesheet" href="css/style.css">
+    <!--Подключены css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@0;1&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!--подключены шрифты-->
+    <style>
+        h3 {
+            color: rgb(0, 140, 255);
+            font-family: 'Oxygen', sans-serif;
+            font-weight: bold;
+            font-style: oblique;
+        }
+    </style>
+    <!--Для h3 подключил стили отдельно-->
 </head>
+
 <body>
 
-<div>
-     <a href="https://grape24.ru/" target="_blank">
-         <button class="logo_button">
-         <img src="img/grape_logo.png" alt="Logo Grape24" width="158" height="55">
-        
-        </button>
-    </a>
-</div>
-  
-    
+    <div>
+        <a href="https://grape24.ru/" target="_blank">
+            <button class="logo_button">
+                <img src="img/grape_logo.png" alt="Logo Grape24" width="158" height="55">
+
+            </button>
+
+            <!--Кнопка, картинка и ссылка для перехода. Стили подключены через класс-->
+
+        </a>
+    </div>
+    <div>
+        <h1 style="color:rgb(33, 17, 253); font-size: 36px;">Заголовок первого уровня</h1>
+        <!--Подключил стиль цвета текста внутри тега-->
+        <h2 class="p_italic">Заголовок второго уровня</h2>
+        <h3>Заголовок третьего уровня</h3>
+        <h4>Заголовок четвертого уровня</h4>
+        <h5>Заголовок пятого уровня</h5>
+        <h6>Заголовок шестого уровня</h6>
+    </div>
+    <div>
+        <h1>Тексты параграфов</h1>
+        <h2>Зимнее утро</h2>
+        <h4>А.С. Пушкин</h4>
+        <p>
+            Мороз и солнце; день чудесный!<br>
+            Еще ты дремлешь, друг прелестный —<br>
+            Пора, красавица, проснись:<br>
+            Открой сомкнуты негой взоры <br>
+            Навстречу <span>северной Авроры,</span> <br>
+            Звездою севера явись! <br>
+        </p>
+
+
+        <p>
+            Второй параграф. В параграфе использую стили из основного style.css
+        </p>
+
+        <p class="p_italic">
+            В третий параграф прописал использование стиля из класса p_italic
+        </p>
+
+        <p
+            style="color: blue; background-color: aquamarine; font-family: Arial, Helvetica, sans-serif; font-size: 2em;">
+            В четвертый параграф прописал стили напрямую в тег
+        </p>
+
+    </div>
 </body>
+
 </html>
