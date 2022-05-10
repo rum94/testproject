@@ -1,23 +1,27 @@
 button {
-    background-color:#d6b56f;
-    color:#ffffff;
+    background-color: #d6b56f;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: bisque;
     font-family: 'Libre Franklin', sans-serif;
 }
-.p_italic{
+
+.p_italic {
     font-family: 'Libre Franklin', sans-serif;
     font-style: italic;
 }
-p{
+
+p {
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
-    font-style: normal; 
+    font-style: normal;
 }
-span{
+
+span {
     font-weight: 600;
     font-style: oblique;
 }
