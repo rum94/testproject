@@ -1,19 +1,20 @@
-body{
+body {
     background-color: #2D355D;
     font-family: 'Manrope', sans-serif
 }
-head{
+
+head {
 
     background-color: #0b0d17;
 
 }
+
 .container {
     margin: 0px auto;
     max-width: 1100px;
     min-width: 350px;
     padding: 80px 0;
     background-color: #0b0d17;
-    font-family: 'Manrope', sans-serif;
     box-sizing: border-box
 }
 
@@ -22,7 +23,8 @@ head{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.cards{
+
+.cards {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -36,7 +38,6 @@ head{
 }
 
 h2 {
-    font-family: 'Manrope', sans-serif;
     font-weight: 800;
     text-align: center;
     margin: 0px 0px 33px 0px;
@@ -45,7 +46,6 @@ h2 {
 }
 
 h3 {
-    font-family: 'Manrope', sans-serif;
     font-weight: 600;
     text-align: center;
     margin: 0;
@@ -54,25 +54,26 @@ h3 {
 }
 
 p {
-    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     color: #18191f;
 }
-.div-explore{
+
+.div-explore {
     order: 1;
 }
-.a-explore{
-    font-family: 'Manrope', sans-serif;
+
+.a-explore {
     font-weight: 700;
     font-size: 12px;
-    color:#8C30F5;
+    color: #8C30F5;
 }
-.flex-explore-all{
+
+.flex-explore-all {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
 }
-.explore-all{
-    font-family: 'Manrope', sans-serif;
+
+.explore-all {
     font-weight: 700;
     font-size: 16px;
     text-decoration-color: #fff;
@@ -88,6 +89,59 @@ p {
     padding: 16px 0px;
     box-sizing: border-box;
 }
-.icon{
+
+.icon {
     margin: 0px 0px 56px 0px;
+}
+
+@media screen and (max-width:2560px) and (min-width:1460px) {
+    .container{
+        max-width: 80%;
+    }
+    .cards{
+        width: 30%;
+        height: 24vmax;
+    }
+}
+
+
+@media screen and (max-width:1080px) {
+    .container{
+        max-width: 780px;
+    }
+    .flex-container {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .flex-container {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .flex-container {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .flex-container {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container {
+        min-width: 304px
+    }
+
+    .cards {
+        width: 304px;
+    }
+
+    .flex-container {
+        justify-content: center;
+    }
 }
