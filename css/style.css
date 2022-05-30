@@ -1,3 +1,83 @@
-body{
+body {
     font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 70px;
+    background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    color: #485466;
+}
+
+span {
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #5A6980;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    background: #485466;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttons-flex {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.buttons {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #485466;
+    margin: 0px 16px;
+    padding: 7px 16px;
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 7px 20px rgba(49, 69, 255, 0.13);
+    font-weight: 700;
+    font-size: 16px;
+    background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.background-img {
+    background-image: url(../img/Illustration.png);
+    background-repeat: no-repeat;
+    height: 575px;
+    background-position-x: right;
+}
+
+.layer {
+    background-image: url(../img/Layer.png);
+    background-repeat: no-repeat;
+    height: 575px;
+    background-position: bottom center;
 }
